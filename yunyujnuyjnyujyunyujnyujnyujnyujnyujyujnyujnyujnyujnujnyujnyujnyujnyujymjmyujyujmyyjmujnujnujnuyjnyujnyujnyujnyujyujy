@@ -1,4 +1,4 @@
-getgenv().Key = Enum.KeyCode.C
+getgenv().Key = Enum.KeyCode.X
 getgenv().Prediction = 1.36
 getgenv().AirshotFunccc = false
 getgenv().Tracer = false
@@ -94,7 +94,7 @@ rawmetatable.__namecall =
 
 getgenv().OldAimPart = "LowerTorso"
 getgenv().AimPart = "LowerTorso" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
-getgenv().AimlockKey = "c"
+getgenv().AimlockKey = "x"
 getgenv().AimRadius = 30 -- How far away from someones character you want to lock on at
 getgenv().ThirdPerson = true
 getgenv().FirstPerson = true
@@ -511,17 +511,17 @@ game:GetService("RunService").Heartbeat:Connect(
         end
         if getgenv().trashtalkl then
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
-                "yun on top👑👑",
+                "my son, solarx claps",
                 "All"
             )
             wait(1)
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
-                ".gg/yun👑👑",
+                "doggy",
                 "All"
             )
             wait(1)
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
-                "get tapped🦜🦜",
+                "bro got tapped",
                 "All"
             )
             wait(1)
@@ -4534,7 +4534,7 @@ function initLibrary()
     return library
 end
 local library = initLibrary()
-local lib = library:Load({name = "Yun.gay", sizeX = 378, sizeY = 498, color = Color3.fromRGB(255, 20, 88)})
+local lib = library:Load({name = "SolarX | Mini", sizeX = 378, sizeY = 498, color = Color3.fromRGB(255, 20, 88)})
 local MainTab = lib:Tab("Main")
 local LegitTab = lib:Tab("Legit")
 local MiscTab = lib:Tab("Misc")
