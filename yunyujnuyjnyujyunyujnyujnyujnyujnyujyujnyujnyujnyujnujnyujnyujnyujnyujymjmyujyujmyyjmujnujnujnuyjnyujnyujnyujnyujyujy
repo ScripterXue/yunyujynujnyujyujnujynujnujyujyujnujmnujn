@@ -43,11 +43,11 @@ UserInputService.InputBegan:Connect(
                     if Locking then
                         Plr = getClosestPlayerToCursor()
                         if getgenv().Notificationmode then
-                            x("Yun", "" .. Plr.Character.Humanoid.DisplayName, 3)
+                            x("SolarX", "" .. Plr.Character.Humanoid.DisplayName, 3)
                         end
                     elseif not Locking then
                         if getgenv().Notificationmode then
-                            x("Yun", "Unlocked", 3)
+                            x("SolarX", "Unlocked", 3)
                         end
                     end
                 end
